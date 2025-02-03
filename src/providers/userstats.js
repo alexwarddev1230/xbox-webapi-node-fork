@@ -21,11 +21,11 @@ module.exports = function (client) {
     provider.getUserTitleStats = function (titleIds) {
         Debug('getUserTitleStats(' + titleIds + ')')
 
-        const titleIdArray = Array.isArray(titleIds) ? titleIds : [titleIds];
+        const titleIdArray = Array.isArray(titleIds) ? titleIds : [titleIds]
 
         // Create group and stats objects for all titleIds
-        const groups = titleIdArray.map(id => ({ name: "Hero", titleId: id }));
-        const stats = titleIdArray.map(id => ({ name: "MinutesPlayed", titleId: id }));
+        const groups = titleIdArray.map(id => ({ name: "Hero", titleId: id }))
+        const stats = titleIdArray.map(id => ({ name: "MinutesPlayed", titleId: id }))
 
         return this.post(
             '/batch',
@@ -35,7 +35,7 @@ module.exports = function (client) {
                 groups: groups,
                 stats: stats
             })
-        );
+        )
     }
 
     return provider
