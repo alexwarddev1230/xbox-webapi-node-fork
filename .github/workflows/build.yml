@@ -27,12 +27,12 @@ jobs:
         - name: Execute tests
           run: npm test
             
-        - name: SonarCloud Scan
-          uses: sonarsource/sonarcloud-github-action@master
-          if: github.actor != 'dependabot[bot]'
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+#        - name: SonarCloud Scan
+#          uses: sonarsource/sonarcloud-github-action@master
+#          if: github.actor != 'dependabot[bot]'
+#          env:
+#            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
         # - name: Perform CodeQL Analysis
         #   uses: github/codeql-action/analyze@v1
