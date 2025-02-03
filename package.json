@@ -1,6 +1,6 @@
 {
-  "name": "xbox-webapi",
-  "version": "1.4.1",
+  "name": "xbox-webapi-fork",
+  "version": "2.5.1",
   "description": "Xbox Web API client in Node.JS that supports Smartglass commands to control the Xbox",
   "main": "src/client.js",
   "bin": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unknownskl/xbox-webapi-node.git"
+    "url": "git+https://github.com/alexwarddev1230/xbox-webapi-node-fork.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unknownskl/xbox-webapi-node/issues"
+    "url": "https://github.com/alexwarddev1230/xbox-webapi-node-fork/issues"
   },
-  "homepage": "https://github.com/unknownskl/xbox-webapi-node#readme",
+  "homepage": "https://github.com/alexwarddev1230/xbox-webapi-node-fork#readme",
   "devDependencies": {
     "@types/chai": "^4",
     "@types/debug": "^4.1.7",
