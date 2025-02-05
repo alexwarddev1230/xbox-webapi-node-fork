@@ -1,6 +1,6 @@
 {
   "name": "xbox-webapi-fork",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "Xbox Web API client in Node.JS that supports Smartglass commands to control the Xbox",
   "main": "src/client.js",
   "bin": {

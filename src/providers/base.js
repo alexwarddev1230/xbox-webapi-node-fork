@@ -13,7 +13,8 @@ module.exports = function(client, providerName){
             'x-xbl-contract-version': '2',
             'x-xbl-client-name': 'XboxApp',
             'x-xbl-client-type': 'UWA',
-            'x-xbl-client-version': '39.39.22001.0'
+            'x-xbl-client-version': '39.39.22001.0',
+            'Content-Type': 'application/json'
         },
 
         get: function(url){
